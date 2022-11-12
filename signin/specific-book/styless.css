@@ -1,0 +1,31 @@
+/* .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+color: green;
+}
+.name1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:center;
+color: red;
+} */
+.name,.name1 {
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+  color: blue;
+}
+
+.text {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  color: brown;
+}
+
+.text2{
+
+}
