@@ -1,31 +1,120 @@
-/* .name {
+ .name {
   display: flex;
+ 
   flex-direction: row;
   justify-content: flex-start;
   align-items:center;
-color: green;
+  color: green;
 }
-.name1 {
+
+.vvv {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items:center;
-color: red;
-} */
-.name,.name1 {
+color: red; 
+}
+.aa {
+  display: flex;
   flex-direction: row;
   align-items:center;
   justify-content:space-between;
   color: blue;
 }
 
-.text {
+.vvv:hover {
+    color:green;
+  }
+
+
+
+
+
+
+
+  .dg {
+    position: static;
+    width: 250px;
+    height: 325px;
+    background-color: yellowgreen;
+  }
+
+  .text {
+    position: fixed ;
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 325px;
+    left: 400px;
+    top: 100px;
+    bottom: 300px;
+  }
+
+  .text2 {
+    position: fixed ;
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 325px;
+    left: 800px;
+    top: 100px;
+    bottom: 300px;
+    border-style:dotted;
+  }
+  .tex {
+    position: absolute;
+    top: 0;
+    width: 250px; 
+    border: 3px solid blue
+  }
+
+
+  .text3{
+    position: absolute;
+    top: 290px;
+    right: 10px;
+    bottom: 10px;
+    border: 3px solid green;
+  }
+  .text3:hover {
+    color:green;
+  }
+
+/* .text {
+  left: 50px;
+  
+} */
+
+
+/* .dg {
   display: flex;
-  flex-wrap: nowrap;
-  text-align: center;
-  color: brown;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  color: green;
 }
+
+
 
 .text2{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  align-items:center;
+  border-style:dotted;
+ color: brown;
+}  
+.dd {
+  display: flex;
+ 
+  align-items: flex-start;
+  justify-content:space-between;
+  color: blue;
+} */
 
-}
+/* 
+.dd {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+  color: blue;
+} */
