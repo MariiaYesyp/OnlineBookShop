@@ -1,59 +1,37 @@
- .name {
-  display: flex;
- 
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items:center;
-  color: green;
+
+
+.carousel-item{
+  height: 400px;
 }
 
-.vvv {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items:center;
-color: red; 
-}
-.aa {
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content:space-between;
-  color: blue;
+.carousel-item img{
+  height: 400px;
 }
 
-.vvv:hover {
-    color:green;
-  }
 
 
-
-
-
-
-
-  .dg {
-    position: static;
-    width: 250px;
-    height: 325px;
+   /* .dg {
+    position: absolute;
+    width: 350px;
+    height: 350px;
     background-color: yellowgreen;
   }
 
   .text {
-    position: fixed ;
+    position: absolute ;
     background-color: blanchedalmond;
-    width: 250px;
-    height: 325px;
+    width: 350px;
+    height: 350px;
     left: 400px;
     top: 100px;
     bottom: 300px;
   }
 
   .text2 {
-    position: fixed ;
+    position: absolute ;
     background-color: blanchedalmond;
-    width: 250px;
-    height: 325px;
+    width: 350px;
+    height: 350px;
     left: 800px;
     top: 100px;
     bottom: 300px;
@@ -62,10 +40,16 @@ color: red;
   .tex {
     position: absolute;
     top: 0;
-    width: 250px; 
+    width: 350px; 
     border: 3px solid blue
   }
-
+ footer {
+  position: absolute;
+  top: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
 
   .text3{
     position: absolute;
@@ -73,10 +57,166 @@ color: red;
     right: 10px;
     bottom: 10px;
     border: 3px solid green;
+  } */ 
+
+  /* * {
+    box-sizing: border-box;
+   }
+   
+   .name {
+    display: flex;
+   
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 15px;
+    align-items:center;
+    color: green;
+  } */
+/*   
+  .vvv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+    margin-left: 15px;
+    align-items:center;
+   color: red; 
   }
+  .aa {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    align-items:center;
+    justify-content:space-between;
+    color: blue;
+  }
+
+main {
+  width: 100%;
+} */
+
+/* 
+
+@media screen and (max-width : 1024px) {
+.dg .text .text2 .tex  .text3 footer {
+ width: 70% ;
+}
+
+ }
+
+
+
+ @media screen and (max-width : 800px) { 
+  .dg .text .text2 .tex  .text3 footer {
+    width: 50% ;
+   }
+   .dg .text .text2 .tex  .text3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+   }
+   .text {
+    width: 250px;
+    height: 250px;
+    left: 10px;
+    top: 600px;
+    bottom: 300px;
+   }
+   .dg {
+    width: 250px;
+    height: 250px;
+   }
+   .text2 .tex  .text3 {
+    width: 250px;
+    height: 250px;
+    left: 10px;
+    top: 900px;
+    bottom: 300px;
+   }
+   }
+ 
+
+
+
+@media screen and (max-width : 420px) { 
+  .dg .text .text2 .tex  .text3 footer {
+    width: 30% ;
+   }
+}
+     */
+
+
+   /* main{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+   }
+   .text {
+    width: 70px;
+   }
+  
+   .text .text2 {
+    display: inline-block;
+    width: 23%;
+  
+   }
+
   .text3:hover {
     color:green;
   }
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+ 
+  background: lightblue;
+  flex-direction: column;
+}
+ .dd{
+  display: inline-block;
+
+ }
+.text2 {
+  text-decoration: none;
+  border-style:dotted;
+  width: 25%;
+}
+.dd {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+input {
+  margin-top: 0px;
+  width: 35px;
+} 
+button {
+  top:290px;
+  right: 10px;
+  bottom: 10px;
+ 
+} */ */
+  /* @media screen and (max-width : 800px) {
+  .dd {
+    width: 100%;
+    border-color: bisque;
+  }
+  }
+  @media screen and (max-width : 420px) {
+    .dd {
+      width: 100%;
+      border-color: azure;
+    }
+  } */
 
 /* .text {
   left: 50px;
