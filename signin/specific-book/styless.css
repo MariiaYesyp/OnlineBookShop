@@ -1,12 +1,36 @@
+.containerCap{
+text-align: center;
+}
 
 
+
+.col {
+ /* вирівнювання та медія  */
+ display: flex;
+flex-direction: column;
+ 
+}
+
+
+ .border{
+  border-style: dashed;
+}
+
+
+
+
+
+
+
+
+/* 
 .carousel-item{
   height: 400px;
 }
 
 .carousel-item img{
   height: 400px;
-}
+} */
 
 
 
