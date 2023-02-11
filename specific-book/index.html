@@ -77,7 +77,16 @@
                 <input type="number" min="1" max="42" id="myInput"  oninput="myFunction()">
                 <script>
                   function myFunction() {
-                    let count = document.getElementById("myInput").value;
+                    let count = Math.round(document.getElementById("myInput").value);
+                    if (count <= 0)
+                    {
+                      count = 1;
+                    }
+                    if (count > 42)
+                    {
+                      count = 42;
+                    }
+                    document.getElementById("myInput").value = count;
                     const price = 52.72;
                     // document.getElementById("demo").innerHTML = (count * price);
                     let numb=  (count * price);
