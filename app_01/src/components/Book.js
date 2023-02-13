@@ -12,7 +12,7 @@ return (
       <span className="book__author">{arguments[0].data.author}</span>
     </div>
     <div className="book__actions">
-      <button>Купити</button>
+    <span className="book__price">{arguments[0].data.price}</span>
       <button>До списку бажань</button>
     </div>
   </div>
