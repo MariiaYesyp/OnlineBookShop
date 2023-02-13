@@ -1,7 +1,7 @@
 import './assets/styles.css';
 import Book from './components/Book.js';
 import Shelf from './components/Shelf.js';
-import { shelfOne, shelfTwo } from './misc/sampleData.js'
+import shelfOne from './misc/sampleData.json' 
 
 export default function App() {
   
@@ -31,7 +31,6 @@ export default function App() {
       {/* ========== Початок зони редагування =============== */}
 
       <Shelf title="Перша книжкова полиця" books={shelfOne}/>
-      <Shelf title="Друга книжкова полиця" books={shelfTwo}/>
       
       {/* ========== Кінець зони редагування =============== */}
     </div>

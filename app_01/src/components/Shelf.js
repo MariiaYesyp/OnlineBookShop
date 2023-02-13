@@ -10,8 +10,6 @@ export default function Shelf() {
   
           <div className="bookshelf__container">
             <Book data={arguments[0].books[0]}/>
-            <Book data={arguments[0].books[1]}/>
-            <Book data={arguments[0].books[2]}/>
           </div>
         </section>
     );
