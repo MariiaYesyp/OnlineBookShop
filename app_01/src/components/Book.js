@@ -5,7 +5,7 @@ return (
     <img
       className="book__cover"
       alt={arguments[0].data.title}
-      src={arguments[0].data.coverUrl}
+      src={arguments[0].data.image}
     />
     <div className="book__summary">
       <span className="book__title">{arguments[0].data.title}</span>
