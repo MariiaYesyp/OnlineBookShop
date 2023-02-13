@@ -9,7 +9,6 @@ return (
     />
     <div className="book__summary">
       <span className="book__title">{arguments[0].data.title}</span>
-      <span className="book__year">{arguments[0].data.year}</span>
       <span className="book__author">{arguments[0].data.author}</span>
     </div>
     <div className="book__actions">
